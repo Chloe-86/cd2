@@ -19,3 +19,9 @@ add_action('wp_print_styles', 'dequeue_ashe_gfonts_scripts', 999);
 // add_action('wp_enqueue_scripts', 'remove_googlefont_stylesheet');
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 add_filter('big_image_size_threshold', '__return_false');
+
+function enqueue_custom_script() {
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_script' );
