@@ -169,6 +169,18 @@ span.title-white{
 }
 
   /* ------------modif css contraste*/
-  #menu-item-976 > a, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-939.status-publish.first.instock.product_cat-robe.product_tag-robe.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-948.status-publish.instock.product_cat-manteau.product_tag-intemporel.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-950.status-publish.last.instock.product_cat-robe.product_tag-ete.product_tag-robe.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, div.post-categories, div.main-content.clear-fix.boxed-wrapper, #chic-products > div > ul > li.product.type-product.post-948.status-publish.instock.product_cat-manteau.product_tag-intemporel.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple > a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, div.main-content.clear-fix.boxed-wrapper, #post-663 > header > div.post-categories > a:nth-child(1), div.main-content.clear-fix.boxed-wrapper, #post-663 > header > div.post-categories > a:nth-child(2), .post-categories a, .post-date, main-content clear-fix boxed-wrapper, .read-more a, .rpwwt-post-categories {
+  #menu-item-976 > a, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-939.status-publish.first.instock.product_cat-robe.product_tag-robe.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-948.status-publish.instock.product_cat-manteau.product_tag-intemporel.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, li.product.type-product.post-950.status-publish.last.instock.product_cat-robe.product_tag-ete.product_tag-robe.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple, div.post-categories, div.main-content.clear-fix.boxed-wrapper, #chic-products > div > ul > li.product.type-product.post-948.status-publish.instock.product_cat-manteau.product_tag-intemporel.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple > a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart, div.main-content.clear-fix.boxed-wrapper, #post-663 > header > div.post-categories > a:nth-child(1), div.main-content.clear-fix.boxed-wrapper, #post-663 > header > div.post-categories > a:nth-child(2), .post-categories a, .post-date, main-content clear-fix boxed-wrapper, .read-more a, .rpwwt-post-categories{
     color: #816434!important;
   }
+
+  /* page contact */
+  #menu-item-977 > a , #page-768 > div > p:nth-child(7) > a{
+    color: #816434!important;
+  }
+  /* page boutique */
+  #menu-item-975 > a, #main > p{
+    color: #816434!important;
+  }
+.post-tags a, span .post-author{
+ color: #404040!important;
+}

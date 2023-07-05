@@ -20,8 +20,18 @@ add_action('wp_print_styles', 'dequeue_ashe_gfonts_scripts', 999);
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 add_filter('big_image_size_threshold', '__return_false');
 
-function enqueue_custom_script() {
-    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0', true );
+function enqueue_custom_script()
+{
+    wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0', true);
 }
 
-add_action( 'wp_enqueue_scripts', 'enqueue_custom_script' );
+add_action('wp_enqueue_scripts', 'enqueue_custom_script');
+
+function modifier_balise_titre_produit() {
+    echo '<h3 class="woocommerce-loop-product__title">';
+    echo get_the_title();
+    echo '</h3>';
+}
+
+remove_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10);
+add_action('woocommerce_shop_loop_item_title', 'modifier_balise_titre_produit', 10);
