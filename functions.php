@@ -15,8 +15,6 @@ function dequeue_ashe_gfonts_scripts()
 }
 add_action('wp_print_styles', 'dequeue_ashe_gfonts_scripts', 999);
 
-
-// add_action('wp_enqueue_scripts', 'remove_googlefont_stylesheet');
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 add_filter('big_image_size_threshold', '__return_false');
 

@@ -31,8 +31,8 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class($post_class); ?>>
 
 				<div class="post-media">
-					<a href="<?php echo esc_url( get_permalink() ); ?>"></a>
-					<?php the_post_thumbnail('full'); ?>
+					<a href="<?php echo esc_url( get_permalink() ); ?>">
+					<?php the_post_thumbnail('full'); ?></a>
 				</div>
 
 				<header class="post-header">
