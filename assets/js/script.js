@@ -18,25 +18,24 @@ const reseaux = {
         icon.setAttribute('aria-label', label);
       }
     });
-    const arrowDown = document.querySelector('.fa-chevron-down');
+    
+    const arrowDown = document.querySelector('.mobile-menu-btn');
     arrowDown.setAttribute('aria-label', 'fleche ouverture menu');
 
-    const arrowUp = document.querySelector('.fa-angle-up');
+    const arrowUp = document.querySelector('.scrolltop');
     arrowUp.setAttribute('aria-label', 'fleche retour haut de page');
     arrowUp.setAttribute('role',"button");
 
-    const rechercher = document.querySelector("#searchform");
-    const input = document.querySelector("#s");
-    rechercher.setAttribute('role',"search");
-    input.setAttribute('aria-label',"Rechercher");
+    const logoRechercher = document.querySelector('.main-nav-search');
+    logoRechercher.setAttribute('aria-label',"bouton de recherche");
+    logoRechercher.setAttribute('role',"search");
 
     const ariaA = document.querySelector("#page-footer > div > div > div.credit > a:nth-child(1)");
     ariaA.setAttribute('aria-label', 'Site officiel de WP Royal Themes');
 
     const tab= document.querySelector("#block-3");
     tab.tabindex=0;
-
-
+    
     const labelElement = document.querySelector('#form-wysija-2 > p > label');
     labelElement.setAttribute('for', 'form-validation-field-0');
     const inputElement = document.querySelector(".wysija-input");

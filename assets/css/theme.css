@@ -171,13 +171,21 @@ span.title-white{
   text-shadow: 2px 3px 5px #d0527a;
 }
 
-/*
-#595959*/
-
 #chic-fashionweek-map, .post-date, .post-content, .post-date, .rpwwt-post-categories, .textwidget p, .wysija-paragraph{
  color: #545454!important;
 }
 
 .logo-img, .title-white{
-color: #707070!important;
+/* color: #707070!important; */
+}
+
+.entry-header{
+  background-color: black!important;
+}
+.post-media  a {
+  display: block;
+  position: inherit; 
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
